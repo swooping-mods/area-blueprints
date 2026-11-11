@@ -6,7 +6,9 @@ Save five area layouts in selection flight; rebuild standard structures with van
 
 Install [Moon Sweepers Mod Loader](https://github.com/swooping-mods/moon-sweepers-mod-loader) first.
 
-Download [area-blueprints-0.1.0.msmod](content/area-blueprints-0.1.0.msmod), import it with **Install mod package**, then select the mod and its required frameworks.
+Download [area-blueprints-0.1.0.msmod](content/area-blueprints-0.1.0.msmod), then drag and drop the `.msmod` file onto the [Moon Sweepers Mod Loader](https://github.com/swooping-mods/moon-sweepers-mod-loader) window. You can also use **Add mods…** (older loader builds: **Install mod package**).
+
+Select the mod and its required frameworks, click **Prepare files**, then **Launch**.
 
 ## Controls
 
