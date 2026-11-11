@@ -1,0 +1,2 @@
+#include "../../runtime/sdk/mod_files.h"
+static inline int worldkey(char *out){int ok=1;PTR s=call(cm.save_root,dget(cm.world),0,&ok);PTR game=GetModuleHandleA("GameAssembly.dll");int(*len)(PTR)=(int(*)(PTR))GetProcAddress(game,"il2cpp_string_length");const unsigned short *(*chars)(PTR)=(const unsigned short *(*)(PTR))GetProcAddress(game,"il2cpp_string_chars");if(!ok||!s||!len||!chars)return 0;int n=len(s);if(n<1||n>1000)return 0;const unsigned short *v=chars(s);U64 hash=1469598103934665603ULL;for(int i=0;i<n;i++){hash^=v[i];hash*=1099511628211ULL;}num(out,hash);return 1;}
