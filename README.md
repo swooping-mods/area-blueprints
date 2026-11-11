@@ -1,5 +1,7 @@
 # Area Blueprints
 
+<img src="media/icon.png" alt="Area Blueprints icon" width="128" height="128">
+
 Save five area layouts in selection flight; rebuild standard structures with vanilla placement checks and costs.
 
 ## Install
