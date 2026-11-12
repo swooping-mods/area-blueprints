@@ -1,7 +1,7 @@
 {
   "id": "area-blueprints",
   "kind": "native",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "backlog": "I18",
   "display_name": "Area Blueprints",
   "gameplay": true,
@@ -9,7 +9,6 @@
   "play_help": [
     "Alt+B opens selection flight; F6/F7 select opposite corners and save.",
     "F8 cycles five slots; Ctrl+R rebuilds at the reticle while holding the normal building tool.",
-    "Normal foundation planning keeps grid snapping. Conveyors and free-pose pieces are excluded.",
-    "Implementation candidate: game testing is deferred."
+    "Captures supported grid buildings, free-grid foundations and whole conveyors; native validation and costs remain."
   ]
 }
